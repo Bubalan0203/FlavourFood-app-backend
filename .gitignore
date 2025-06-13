@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+_pycache_/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# Mac system files
+.DS_Store
+
+# Logs and debug files
+*.log
+*.sqlite3
+
+# Python specific
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# PyTorch/Model files
+*.pt
+*.pth
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# Pipenv or Poetry
+Pipfile.lock
+poetry.lock
+
+# Test/coverage
+htmlcov/
+.tox/
+coverage.xml
+*.cover
+*.py,cover
+.cache
+
+# MyPy and Pytest
+.mypy_cache/
+.pytest_cache/
+
+# Uvicorn reload temp files
+reload.*
+
+# _init_.py backups
+*.bak
